@@ -4,7 +4,7 @@
 
 Este projeto visa a construção de um **Data Warehouse** eficiente e estruturado para integrar e organizar os dados de vendas, compras e rentabilidade da empresa, possibilitando uma análise profunda e estratégica dos seus processos de negócios. O objetivo é proporcionar insights detalhados sobre o desempenho das transações, otimizando a tomada de decisões com base em informações consolidadas e acessíveis.
 
-A modelagem do **Data Warehouse** foi desenvolvida com base em diversas **dimensões** e **hierarquias** que estruturam os dados de maneira flexível e organizada. As principais dimensões envolvidas no projeto incluem **CLIENTE**, **PRODUTO**, **EMPRESA**, **TICKET** e **TEMPO**, com suas respectivas hierarquias e atributos, que garantem uma análise detalhada em diferentes níveis de granularidade, desde o cliente até o período da transação.
+A modelagem do **Data Warehouse** foi desenvolvida com base em diversas **dimensões** e **hierarquias** que estruturam os dados de maneira flexível e organizada. As principais dimensões envolvidas no projeto incluem **CLIENTE**, **PRODUTO**, **EMPRESA**, e **TEMPO**, com suas respectivas hierarquias e atributos, que garantem uma análise detalhada em diferentes níveis de granularidade, desde o cliente até o período da transação.
 
 Além disso, a estrutura contempla indicadores chave de desempenho, como **quantidade vendida**, **valor da venda**, **lucro** e **rentabilidade**, que são calculados a partir de dados de entrada (**inputs**) e ajudam a medir o desempenho da empresa de forma clara e objetiva.
 
@@ -59,15 +59,7 @@ A modelagem do **Data Warehouse** foi construída com base nas seguintes dimens�
     - Loja
     - Empresa (CNPJ e Nome da Empresa)
 
-### 3.4 Dimensão TICKET
-
-- **Nível Input**: ID Sequencial (Sequencial do Item)
-- **Hierarquias**:
-  - **Ticket**:
-    - Sequencial do Item
-    - Número do Ticket
-
-### 3.5 Dimensão TEMPO
+### 3.4 Dimensão TEMPO
 
 - **Nível Input**: Data (Dia, mês, ano) - AAAAMMDD
 - **Atributos**:
