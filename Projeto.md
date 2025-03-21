@@ -104,15 +104,15 @@ Os indicadores principais do projeto são calculados a partir de dados de entrad
 
 A tabela abaixo apresenta a relação entre as dimensões e os indicadores do projeto:
 
-| Indicador                | CLIENTE | PRODUTO | EMPRESA | TICKET | TEMPO |
-| ------------------------ | ------- | ------- | ------- | ------ | ----- |
-| Quantidade Vendida       | X       | X       | X       | X      | X     |
-| Preço Unitário de Venda  | X       | X       | X       | X      | X     |
-| Valor da Venda           | X       | X       | X       | X      | X     |
-| Preço Unitário de Compra | X       | X       | X       | X      | X     |
-| Custo de Venda           | X       | X       | X       | X      | X     |
-| Lucro                    | X       | X       | X       | X      | X     |
-| Rentabilidade            | X       | X       | X       | X      | X     |
+| Indicador                | CLIENTE | PRODUTO | EMPRESA | TEMPO |
+| ------------------------ | ------- | ------- | ------- | ----- |
+| Quantidade Vendida       | X       | X       | X       | X     |
+| Preço Unitário de Venda  | X       | X       | X       | X     |
+| Valor da Venda           | X       | X       | X       | X     |
+| Preço Unitário de Compra | X       | X       | X       | X     |
+| Custo de Venda           | X       | X       | X       | X     |
+| Lucro                    | X       | X       | X       | X     |
+| Rentabilidade            | X       | X       | X       | X     |
 
 Essa matriz define quais dimensões estão relacionadas com cada indicador, garantindo que a modelagem do **Data Warehouse** esteja bem estruturada para análises futuras.
 
